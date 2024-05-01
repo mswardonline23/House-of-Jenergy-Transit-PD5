@@ -1,0 +1,78 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-image: url(dj-bg.jpg);
+  background-size: cover;
+  background-repeat:repeat-y;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  
+}
+/* This is my style for my navigation */
+nav a{
+color: white;  
+text-decoration: none;
+background-color: #ff0026;  
+padding: 8px;
+border: 2px solid black;  
+border-radius: 5px;   
+  
+}
+
+nav a:link{
+color: white;  
+text-decoration: none;
+background-color: #ff0026;  
+padding: 8px;
+border: 2px solid black;  
+border-radius: 5px;   
+
+}
+
+nav a:visted{
+color: white;  
+text-decoration: none;
+background-color: #ff0026;  
+padding: 8px;
+border: 2px solid black;  
+border-radius: 5px;   
+
+}
+
+nav a:active{
+color: white;  
+text-decoration: none;
+background-color: #ff0026;  
+padding: 8px;
+border: 2px solid black;  
+border-radius: 5px;   
+
+}
+
+
+nav a:hover{
+color:#ff0026;  
+text-decoration: none;
+background-color: white;  
+padding: 8px;
+border: 2px solid black;  
+border-radius: 5px;   
+
+}
+
+h1:first-letter{
+  font-size: 2em;
+}
+
+main{
+  text-align: justify;
+  background-color: white;
+  color: black;
+  padding: 3px;
+}
